@@ -27,7 +27,6 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """ 
 string= list(input(["(Please enter a string of text): "]))
 print (string)
-string = x
 def shuffle(string):
     if len(string) == 1:
         return string
