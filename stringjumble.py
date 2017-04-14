@@ -27,3 +27,15 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """ 
 string= list(input(["Please enter a string of text "]))
 print (string)
+def shuffle(string):
+    if len(string) == 1:
+        return string
+    else:
+        half = int(len(string) / 2)
+        # First half in reverse
+        first = string[:half][::-1]
+        # Last half in reverse
+        last =string[half:len(string)][::-1]
+
+        # First + Last in reverse
+        return str(first+last)[::-1]
