@@ -25,6 +25,8 @@ ydnah dnif yam uoy taht skcirt ro seuqinhcet wef a era erehT
 handy find may you that tricks or techniques few a are There
 erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """ 
+import string
+string.ascii_lowercase
 string= list(input(["Please enter a string of text "]))
 print (string)
 def shuffle(string):
