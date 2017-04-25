@@ -33,7 +33,6 @@ def shuffle(string):
     if len(string) == 1:
         return string
     else:
-        
         half = int(len(string) / 2)
         # First half in reverse
         first = string[:half][::-1]
