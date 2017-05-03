@@ -37,7 +37,7 @@ def shuffle(string):
      
         first = string[:half][::-1]
     
-        last =string[half:len(tring)][::-1]
+        last =string[half:len(string)][::-1]
  
     
         return str(first+last)[::-1]
