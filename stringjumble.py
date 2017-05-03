@@ -31,7 +31,7 @@ string= list(input(["Please enter a string of text "]))
 print (string)
 def shuffle(string):
     if len(string) == 1:
-        print string
+     
     else:
         half = int(len(string) / 2)
      
