@@ -35,7 +35,7 @@ def shuffle(string):
     else:
         half = int(len(string) / 2)
      
-        first = string[:half][::-1]
+        first = list[:half][::-1]
     
         last =string[half:len(string)][::-1]
  
